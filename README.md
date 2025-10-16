@@ -55,8 +55,9 @@ docker build  -t kmfaka-v001 .
 # 安装命令
 docker run --name kmfaka -itd --restart=always -p 8006:8000  kmfaka-v001:latest
 
-# 后台地址`/admin`,
-# 默认管理员`admin@qq.com 123456`
+# 后台地址 /admin
+# 默认管理员 admin@qq.com 
+# 默认密码 123456`
 ```
 
 
